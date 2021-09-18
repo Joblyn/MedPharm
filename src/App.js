@@ -8,7 +8,7 @@ import RegisterAsDoctor from "./Pages/RegisterAsDoctor";
 import RegisterAsPharmacy from "./Pages/RegisterAsPharmacy";
 import Login from "./Pages/Login";
 import NewsFeed from "./Pages/NewsFeed";
-import Appointments from "./Pages/Apopointments";
+import Appointments from "./Pages/Appointments";
 import Doctor_Profile from "./Pages/Doctor_Profile";
 import Stories from "./Components/Stories";
 import Feed from "./Components/Feed";
