@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Button, Container, NavDropdown } from "react-bootstrap";
 import Hero from "../../Components/Hero.";
-// import WhatWeOffer from "../../Components/WhatWeOffer.";
+// import WhatWeOffer from "../../Components/WhatWeOffer/index";
 import './style.css';
 
 export default function Landing() {
@@ -9,7 +9,7 @@ export default function Landing() {
     <div>
       <Navbar className="header" expand="lg">
         <Container fluid>
-          <Navbar.Brand href="#home" className="logo">MedPharm</Navbar.Brand>
+          <Navbar.Brand href="/" className="logo">MedPharm</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
@@ -29,7 +29,7 @@ export default function Landing() {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
-              <Button className="custom-btn">Sign Up</Button>
+              <Button className="custom-btn d-flex flex-column justify-content-center align-items-center" href="/get_started">Get Started</Button>
             </Nav>
           </Navbar.Collapse>
         </Container>

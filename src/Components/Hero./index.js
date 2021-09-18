@@ -13,7 +13,7 @@ export default function Hero() {
           informative health posts from doctors, quick access to medical care
           and get drugs delivered from verified pharmacies.
         </p>
-        <Button className="custom-btn">Get Started</Button>
+        <Button className="custom-btn d-flex flex-column justify-content-center align-items-center" href="/get_started">Get Started</Button>
       </div>
       <div className="img-container col-lg-7 col-sm-12">
         <img alt="" src={HeroImage}/>

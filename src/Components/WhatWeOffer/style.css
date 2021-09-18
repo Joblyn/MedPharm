@@ -1,29 +1,44 @@
+.wwo-container {
+  background-color: #CCDDE2;
+}
+
 .wwo-container h3 {
   text-align: center;
   text-transform: uppercase;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 4.8rem;
   line-height: 5.8rem;
   color: #303030;
 }
 
-.img-cont:nth-of-type(1) {
-  background: url('../../Assets/Images/wwo1.svg') cover;
+.img-cont {
+  height: 40rem;
 }
 
-.img-cont:nth-of-type(2) {
-  background: url('../../Assets/Images/wwo2.svg') cover;
+.img-cont-cont {
+  padding: 5rem;
 }
 
-.img-cont:nth-of-type(3) {
-  background: url('../../Assets/Images/wwo3.svg') cover;
+.img-1 {
+  background: url("../../Assets/Images/wwo1.svg") no-repeat;
+  background-size: cover;
+}
+
+.img-2 {
+  background: url("../../Assets/Images/wwo2.svg") no-repeat;
+  background-size: cover;
+}
+
+.img-3 {
+  background: url("../../Assets/Images/wwo3.svg") no-repeat;
+  background-size: cover;
 }
 
 .img-cont p {
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 2.4rem;
   line-height: 29px;
   letter-spacing: 0.015em;
   text-transform: uppercase;
